@@ -1,0 +1,37 @@
+// rissp_soc: RISSP (original, 35 instructions). Paths are relative to the repository root.
+// Simulation view: CPU, cpu_core wrapper and the AES/SHA3/RSA accelerators.
+rtl/cpu/rissp/alu_adder.v
+rtl/cpu/rissp/axi_rissp_master.v
+rtl/cpu/rissp/b_type_block.v
+rtl/cpu/rissp/barrel_shifter.v
+rtl/cpu/rissp/comparator.v
+rtl/cpu/rissp/fetch_stage.v
+rtl/cpu/rissp/i_type_block.v
+rtl/cpu/rissp/j_type_block.v
+rtl/cpu/rissp/modular_ex.v
+rtl/cpu/rissp/r_type_block.v
+rtl/cpu/rissp/register_file.v
+rtl/cpu/rissp/rissp_top.v
+rtl/cpu/rissp/s_type_block.v
+rtl/cpu/rissp/u_type_block.v
+rtl/accelerators/aes/AESEncrypt.v
+rtl/accelerators/aes/AddRoundKey.v
+rtl/accelerators/aes/KeyExpansionRound.v
+rtl/accelerators/aes/MixColumns.v
+rtl/accelerators/aes/ShiftRows.v
+rtl/accelerators/aes/SubBytes.v
+rtl/accelerators/aes/SubTable.v
+rtl/accelerators/aes/aes_axi_slave.v
+rtl/accelerators/aes/aes_wrapper.v
+rtl/accelerators/sha3/SHA3_hardware_new.v
+rtl/accelerators/sha3/SHA3_hardware_new_slave_lite_v1_0_S01_AXI.v
+rtl/accelerators/sha3/F_permutation.v
+rtl/accelerators/sha3/Keccak.v
+rtl/accelerators/sha3/Padder.v
+rtl/accelerators/sha3/Padder1.v
+rtl/accelerators/sha3/rconst2in1.v
+rtl/accelerators/sha3/round2in1.v
+rtl/accelerators/rsa/RSA_mark03.v
+rtl/accelerators/rsa/RSA_mark03_slave_lite_v1_0_S00_AXI.v
+rtl/accelerators/rsa/RSA_core.v
+rtl/cpu/rissp/cpu_core_rissp.v

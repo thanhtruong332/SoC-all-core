@@ -1,0 +1,35 @@
+// rv32i_soc: RV32I 5-stage pipeline (rv32i_ultra). Paths are relative to the repository root.
+// Simulation view: CPU, cpu_core wrapper and the AES/SHA3/RSA accelerators.
+rtl/accelerators/aes/AESEncrypt.v
+rtl/accelerators/aes/AddRoundKey.v
+rtl/accelerators/aes/KeyExpansionRound.v
+rtl/accelerators/aes/MixColumns.v
+rtl/accelerators/aes/ShiftRows.v
+rtl/accelerators/aes/SubBytes.v
+rtl/accelerators/aes/SubTable.v
+rtl/accelerators/aes/aes_axi_slave.v
+rtl/accelerators/aes/aes_wrapper.v
+rtl/accelerators/sha3/SHA3_hardware_new.v
+rtl/accelerators/sha3/SHA3_hardware_new_slave_lite_v1_0_S01_AXI.v
+rtl/accelerators/sha3/F_permutation.v
+rtl/accelerators/sha3/Keccak.v
+rtl/accelerators/sha3/Padder.v
+rtl/accelerators/sha3/Padder1.v
+rtl/accelerators/sha3/rconst2in1.v
+rtl/accelerators/sha3/round2in1.v
+rtl/accelerators/rsa/RSA_mark03.v
+rtl/accelerators/rsa/RSA_mark03_slave_lite_v1_0_S00_AXI.v
+rtl/accelerators/rsa/RSA_core.v
+rtl/cpu/rv32i/rv32i_pure.v
+rtl/cpu/rv32i/rv32i_pure_master_lite_v1_0_M00_AXI.v
+rtl/cpu/rv32i/ALU.v
+rtl/cpu/rv32i/ALU_control.v
+rtl/cpu/rv32i/Branch_prediction.v
+rtl/cpu/rv32i/Control_unit.v
+rtl/cpu/rv32i/Forwarding_unit.v
+rtl/cpu/rv32i/Hazard_detection.v
+rtl/cpu/rv32i/Immediate_generator.v
+rtl/cpu/rv32i/PC.v
+rtl/cpu/rv32i/Register_file.v
+rtl/cpu/rv32i/rv32i_top.v
+rtl/cpu/rv32i/cpu_core_rv32i.v
